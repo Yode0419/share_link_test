@@ -15,11 +15,11 @@ class MyApp extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              OpenUrlButton(),
+              OpenInExternalBrowserButton(),
               SizedBox(
                 height: 32,
               ),
-              OpenInExternalBrowserButton(),
+              OpenUrlButton(),
             ],
           ),
         ),
